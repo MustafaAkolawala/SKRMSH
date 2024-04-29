@@ -170,8 +170,8 @@ var game = new Phaser.Game(config);
 var gameScene = new Phaser.Scene("game");
 
 gameScene.preload = function() {
-    this.load.image('player', 'assets/white.png');
-    this.load.image('bullet', 'assets/black.png');
+    this.load.image('player', 'assets/player1.png');
+    this.load.image('bullet', 'assets/bullet_enhanced.png');
 //	this.load.image('bg', 'assets/Map.png');
 	this.load.image('bg', 'assets/2PMap.png');
 	this.load.image('green', 'assets/green.png');
